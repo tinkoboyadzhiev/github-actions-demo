@@ -5,7 +5,7 @@ on: [push]
 env:
  GREETING: "Hello"
 
- jobs:
+jobs:
   print-greeting:
    runs-on: ubuntu-latest
    steps:
